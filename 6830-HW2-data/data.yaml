@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 9
+names: ['TT-bike', 'bmx-bike', 'folding-bike', 'human', 'mountain-bike', 'recumbent-bike', 'road-bike', 'tandem', 'urban-bike']
+
+roboflow:
+  workspace: workspace-tcmrx
+  project: hkust-isdn6830-2024s
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/workspace-tcmrx/hkust-isdn6830-2024s/dataset/1
